@@ -1,0 +1,1 @@
+docker run -v openvpn-volume:/etc/openvpn --rm -it kylemanna/openvpn easyrsa build-client-full $1

@@ -1,0 +1,1 @@
+docker run -v openvpn-volume:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient $1 > $1.ovpn
